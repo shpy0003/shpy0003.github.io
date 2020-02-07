@@ -1,0 +1,152 @@
+/*css reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+ 
+/*Main Content*/
+
+body{
+    font-family: Montserrat, Roboto, Poppins;
+    background-color: #F7F7FF;
+    line-height: 2rem;
+}
+/* Make font biger and bold*/
+h1{
+    font-size: 2rem; 
+    font-weight: bolder;
+}
+/* Give size and weight to font*/
+h6{
+    font-size: 1rem;
+    font-weight: bold;
+}
+/* Give size for paragraph */
+p{
+    font-size:1rem;
+}
+/* Put image as background for website*/
+main{
+    background: url(images/bg-image/scooter.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*Header. Provide size and location of logo*/
+.logo{
+    width: 114.73px;
+    height: 81.05px;
+    margin-left: 50px;
+}
+/*Block with information and contact form*/
+main{
+    /* Make it flex to have responsive website */
+    display: flex;
+    justify-content: space-between;
+    /* In order to change view*/
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin:80px 50px 80px 50px ; 
+    
+}
+/* Provide space between sections */
+.info{
+    margin-bottom: 300px;
+
+}
+/* Make h1 bigger to fit to XD example*/
+.info h1{
+    font-size: 4rem;
+    line-height: 4.5rem;
+}
+/* Gives style to Contact Form*/
+form{
+    background-color:white;
+    padding:1rem;  
+    border-radius: 1rem;
+    /*in order to keep inputs in box*/
+    box-shadow: 4px 4px 8px #333131;  
+} 
+/* Gives style to Button*/
+button{
+    padding: 10px 20px 10px 20px ;
+    text-transform: none;
+    cursor:pointer;
+    background-color: #57EEAB;
+    border: none;
+    border-radius: 9px;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 100%;
+}
+/* make everything in Contact form be in center*/
+  .contact{ 
+    justify-content: center;
+}
+/* Gives style to All Inputs */
+input {
+    background-color:#F4F4F5;
+    padding: 15px;
+    width:100%;
+    font-size:1rem;
+    margin:5px 0 5px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 9px;
+    }
+
+/* Footer*/
+footer{
+    background-color: #FFFD8C;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.icons{
+    margin:0 auto;
+}
+.input{
+    margin:0 auto;
+    margin-bottom: 20px;
+}
