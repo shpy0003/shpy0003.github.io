@@ -52,12 +52,12 @@ html{
 header{
     margin: auto 0;
    
-     background-color:#1D2C35;
+     background-color:#2F2F2F;
 }
 body{
    
     margin: auto 0;
-    background-color:#1D2C35;
+    background-color:#2F2F2F;
 }
 
 /* BANNER*/
@@ -84,7 +84,7 @@ body{
 
 .navbar {
   font-size: 18px;
-  background-color:#1D2C35 ;
+  background-color:#2F2F2F ;
   padding-bottom: 10px;
 }
 
@@ -564,7 +564,7 @@ tr:nth-child(even) {
     width:30%;
     margin-top:20px;
     text-align: center;
-    background-color: #1D2D35;
+    background-color: #2F2F2F;
     border-radius:4px;
     margin-right:10px;
   }
