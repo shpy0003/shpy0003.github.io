@@ -1,0 +1,741 @@
+/*CSS RESET*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html{
+    font-family:Roboto,Regular,Helvetica Neue, Helvetica, sans-serif;
+    
+}
+
+
+header{
+    margin: auto 0;
+   
+     background-color:#1D2C35;
+}
+body{
+   
+    margin: auto 0;
+    background-color:#1D2C35;
+}
+
+/* BANNER*/
+.banner{
+  background: url(images/banner.jpg) repeat-y #fc0;
+     background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    opacity: 60%;
+    width: 100%;
+    height:200px;
+    margin-bottom: 20px;
+
+   
+}
+/* NAV MENU*/
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+.navbar {
+  font-size: 18px;
+  background-color:#1D2C35 ;
+  padding-bottom: 10px;
+}
+
+.main-nav {
+  list-style-type: none;
+  display: none;
+}
+
+.nav-links
+ {
+  color:white;
+  text-decoration:none;
+}
+.nav-links:hover
+ {
+  color:#9DEC8B;
+  text-decoration:none;
+}
+
+.main-nav li {
+  text-align: center;
+  margin: 15px auto;
+}
+
+.main-nav li:hover {
+  text-decoration: underline ;
+}
+
+.logo {
+  display: inline-block;
+  background-color: #1D2C35;
+color: white;
+font-family: Helvetica;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-left: 20px;
+  text-decoration:none;
+}
+
+.navbar-toggle {
+  position: absolute;
+  top: 230px;
+  right: 20px;
+  cursor: pointer;
+  color:white;
+  font-size: 24px;
+}
+
+.active {
+  display: block;
+}
+
+/* NEWS SECTION*/
+
+.news{
+margin-top:20px ;
+
+
+}
+#live{
+  display: none;
+}
+  .block{
+    display:flex;
+    margin-top:20px ;
+}
+
+
+.img_1{
+    width:50%;
+    height:200px;
+    background: url(images/article_1.jpg) repeat-y #fc0;
+           background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    border-radius: 4px;
+    border-style: none;
+    float:left;
+    margin: 20px 20px 20px 20px;
+   
+    
+}
+.img_2{
+    width:50%;
+    height:200px;
+    background: url(images/second.jpg) repeat-y #fc0;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    border-radius: 4px;
+    border-style: none;
+    float:left;
+    margin: 20px 20px 20px 20px;
+   
+    
+}
+.img_3{
+    width:50%;
+    height:200px;
+    background: url(images/third.jpg) repeat-y #fc0;
+           background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    border-radius: 4px;
+    border-style: none;
+    float:left;
+    margin: 20px 20px 20px 20px;
+  
+    
+}
+
+.title{
+  display: none;
+
+}
+
+.description{
+  display:none;
+
+}
+
+.text{
+  display: block;
+    float: right;
+   margin-top: 20px;
+    width: 50%;
+}
+
+h1{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom:20px;
+}
+
+h2{
+    color:#304B58;
+   margin: 10px;
+    background-color:#9DEC8B; 
+    width: 70px;
+    padding: 15px;
+    border-radius:2px; 
+    font-size:14px ;
+   
+}
+
+p{
+    color: white;
+    opacity: 70%;
+}
+
+.read{
+    color:#9DEC8B;
+    text-align: right;
+    margin-top:20px; 
+    margin-right:10px; 
+  
+}
+/* TOURNAMENT REGISTRATION SECTION*/
+
+.cup{
+  height:400px;
+  padding: 20px;;
+  background-color:#000000;
+  margin-top:60px ;
+}
+
+
+form{
+  margin: 0 auto;
+
+  
+}
+
+#game{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+ }
+
+ #cup_description{
+    display:none;
+}
+
+  .info{
+   margin-top:20px ;
+    color:#9DEC8B;
+    text-align: center;
+    margin-bottom:20px;
+ }
+
+ input {
+  text-align: center;
+  border-radius:5px;
+  background-color:#e6e6e6;
+    border:none;
+    padding:10px;
+    margin-top:20px;
+    width:100%;
+    font-size:1rem;
+    margin-bottom:20px;
+}
+textarea {
+  text-align: center;
+  border-radius:5px;
+  background-color:#e6e6e6;
+    border:none;
+    padding:10px;
+    margin-top:20px;
+    width:100%;
+    font-size:1rem;
+    margin-bottom:20px;
+}
+
+    .name{
+      text-align: left;
+      display: block;
+      line-height: 1.2;
+      float: left;
+      color:black;
+      
+}
+
+label{
+  color: white;
+  font-size:16px;
+  
+}
+button{
+  font-size:1rem;
+  padding:10px 40px 10px 40px;
+  border-radius:10px;
+  background-color:#9DEC8B;
+  border:none;
+  color:#304B58;
+  font-family:Poppins semibold;
+ 
+}
+.button{
+  text-align: center;
+}
+
+.review{
+  text-align: center;
+
+}
+
+/* EDITOR CHOICE SECTION*/
+#Editor{
+  margin-top:25px;
+  color: white;
+  font-size: 25px;
+}
+
+.year{
+  text-align: center;
+  color: #9DEC8B;
+  margin-bottom:20px ;
+}
+
+.image{
+  width:50%;
+    height:400px;
+    background: url(images/Tomb_raider.jpg) repeat-y #fc0;
+           background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    border-radius: 4px;
+    border-style: none;
+   
+    margin: 0 auto;
+}
+
+.image2{
+  display:none;
+}
+.image3{
+  display:none;
+}
+/* FOOTER*/
+footer{
+  margin-top:30px ;
+  text-align: center;
+  background-color:#000000;
+  padding-bottom:20px;
+}
+
+
+.logo_2 {
+  display: inline-block;
+  background-color: #000000;
+color: white;
+font-family: Helvetica;
+  font-size: 40px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+ .footer_menu li{
+   margin-top:10px;
+ }
+
+ .footer_menu li:hover{
+  text-decoration: underline;
+}
+/* UP BUTTON*/
+.top-btn{
+  position:fixed;
+  bottom:10px;
+  right: 5px;
+  background-color: #304B58 ;
+  border-radius:50px;
+  padding:5px;
+  color:white;
+}
+.top-btn i::before{
+  font-size: 2em;
+}
+/* ABOUT PAGE*/
+.img_about{
+  width:80%;
+    height:400px;
+    background: url(images/about.jpg) repeat-y #fc0;
+           background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+    border-radius: 4px;
+    border-style: none;
+    margin: 0 auto;
+    margin-top:40px ;
+
+}
+
+.info_about{
+  text-align: center;
+  margin-top:40px;
+  
+}
+
+.title_about{
+  font-size:32px;
+  text-align: center;
+  
+}
+
+.subtitle_about{
+  color:#9DEC8B;
+}
+
+.p_about{
+ margin:0 auto;
+ margin-top:10px;
+  width:80%;
+
+}
+/* TIMETABLE*/
+.table{
+   margin-top:40px;
+  
+}
+
+table{
+  margin:0 auto;
+  color:white;
+  width:80%;
+}
+
+table,th,td{
+  border:1px solid  black;
+  border-collapse: collapse;
+  padding:10px;
+}
+th{
+  color:white;
+  background-color:#304B58;
+}
+
+td{
+  text-align:right;
+}
+table.class td:nth-child(2){
+  background: yellow;
+}
+table.class td:nth-child(5){
+  background: green;
+}
+tr:nth-child(even) {
+  background-color: gray;
+}
+/* CONTACT FORM*/
+
+#map{
+  text-align: center;
+  margin-top:40px;
+}
+
+#contact_form{
+  margin:0 auto;
+  margin-top:40px;
+  width:80%;
+}
+
+
+
+
+/* MOBILE*/
+@media screen and (min-width: 768px) {
+  /* NAV MENU*/
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 70px;
+    align-items: center;
+  }
+
+  .main-nav {
+    display: flex;
+    margin-right: 30px;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .main-nav li {
+    margin: 0;
+  }
+
+  .nav-links {
+    margin-left: 40px;
+  }
+
+  .logo {
+    margin-top: 0;
+  }
+
+  .navbar-toggle {
+    display: none;
+  }
+  /* NEWS SECTOR*/
+  .img_1{
+    width:100%;
+    height:300px;
+    float: left;
+}
+.img_2{
+  width:100%;
+  height:300px;
+}
+.text{
+  display: none;
+}
+.title{
+  display: block;
+  font-size:39px;
+  margin-top:120px;
+  margin-left:10px ;
+  margin-bottom:10px;
+  color:white;
+  
+
+
+}
+
+.description{
+  display:block;
+  margin-left:10px ;
+  margin-bottom:10px;
+
+}
+  .img_3{
+    display:none;
+  }
+  /* POST*/
+  #live{
+    display: block;
+    float: right;
+    height:659px;
+    width:30%;
+    margin-top:20px;
+    text-align: center;
+    background-color: #1D2D35;
+    border-radius:4px;
+    margin-right:10px;
+  }
+#post{
+  font-size:25px;
+  margin-top:20px;
+  color: white;
+
+
+}
+.fakeimg{
+  background: url(images/post.jpg) repeat-y #fc0;
+  background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 4px;
+border-style: none;
+height:400px;
+width:80% ;
+margin:0 auto;
+margin-top:30px;
+
+}
+  #posttext{
+    margin-top:30px;
+    margin-right:20px ;
+    margin-left:20px ;
+
+  }
+  /* TOURNAMENT REGISTRATION*/
+  .cup{
+    display: flex;
+     
+  }
+  #cup_text{
+     
+    float:left;
+    width: 50%;
+    margin-top:60px;
+  }
+
+  #cup_description{
+    display: inline;
+    max-width:20px;
+    text-align:left;
+  }
+  .login{
+    float:right;
+    margin-top:60px;
+    width:40%;
+    margin-left:20px;
+    
+  }
+  form{
+    width:80%;
+    margin:0 auto;
+  }
+
+  .info{
+    text-align:left;
+  }
+  #game{
+    font-size:48px;
+    text-align:left;
+  }
+  /* EDITOR CHOICE*/
+   #Editor{
+     font-size:40px;
+   }
+   .year{
+     font-size:30px;
+   }
+
+   #games{
+     display:flex;
+   }
+   .image{
+    width:25%;
+   
+     float: left;
+      
+  }
+
+   .image2{
+     display:block;
+     float: left;
+     width:25%;
+      height:400px;
+      background: url(images/Farcry.jpg) repeat-y #fc0;
+             background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      border-radius: 4px;
+      border-style: none;
+     
+      margin: 0 auto;
+   }
+
+   .image3{
+    width:25%;
+    height:400px;
+    background: url(images/crysis.jpg) repeat-y #fc0;
+           background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    border-radius: 4px;
+    border-style: none;
+   
+    margin: 0 auto;
+    display:block;
+    float: left;
+  }
+/* FOOTER*/
+  footer{
+    display:flex;
+    height:200px;
+  }
+
+  .footer_content{
+    margin:0 auto ;
+  }
+
+.footer_menu{
+  float: left;
+  margin-top:50px;
+}
+.footer_text{
+  float: left;
+  margin-top:50px;
+}
+/* ABOUT PAGE*/
+#about{
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+.img_about{
+ float: right;
+ width:100%;
+}
+
+#about_services{
+  display:flex;
+  margin:0 auto;
+  width:80%;
+}
+/* TIMETABLE*/
+.table{
+  float:right;
+  width: 100%;
+  
+}
+.info_about{
+  float: left;
+  width: 100%;
+
+}
+/* CONTACT PAGE*/
+#contact_body{
+  display: flex;
+}
+/* MAP*/
+#map{
+  float: left;
+  width:100%;
+}
+/* CONTACT FORM*/
+#contact_form{
+float: right;
+width:100%;
+}
+
+
+}
