@@ -1,0 +1,268 @@
+/*CSS RESET*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Custom Styles for Html*/
+
+
+*{
+    box-sizing: border-box;
+}
+html,body{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    color: #222831;
+    background-color: #FDFDFD;
+    font-family: Poppins, Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    font-size: xx-large;
+    line-height: normal;
+    color: #30475E;
+    font-weight: bold;
+}
+h2{
+    font-size: larger;
+    line-height: normal;
+    font-weight:lighter;
+}
+
+h3{
+    font-size: medium;
+    line-height: normal;
+    font-weight:lighter;
+}
+
+p{
+    font-size: small;
+    line-height: normal;
+    font-weight:lighter;
+}
+
+main{
+    width: 100%;
+    margin:0 auto;
+}
+header,section,footer{
+    flex-grow: 1;
+
+    padding: 25px;
+    margin: 5px;
+    background-color: #FDFDFD;
+}
+
+
+/*Buttons Style*/
+
+
+button{
+    border: none;
+    background-color: #FDFDFD;
+    font-size: large;
+    color: #30475E;
+    opacity: 50%    ;
+}
+
+button:hover{
+    text-decoration: underline;
+    color: #30475E;
+    opacity: 100%;
+}
+
+
+/*Header*/
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    background-color: #ffffff;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+/*Banner Info*/
+
+
+.main-info{
+    display: flex;
+    flex-grow: 1;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*About Me Section Customization */
+
+.main-info-about{
+    display: flex;
+    flex-grow: 1;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+.main-info-about img{
+    width: 300px;
+    padding: 10px;
+}
+
+
+
+/*Navigation*/
+/*Makes navigation flex*/
+.nav{
+    display: flex;
+}
+/*Puts logo on the left side */
+.nav-logo{
+    margin-right: auto;
+    font-size: x-large;
+    font-weight: bold;
+}
+/*Adds additional space between navigation*/
+a.nav-link{
+    margin-left: 10px;
+}
+/*Customization for navigation*/
+a.nav-link{
+    text-decoration: none;
+    color: #222831;
+    opacity: 50%;
+}
+a.nav-link:hover{
+    text-decoration: underline;
+    color:#30475E;
+    opacity: 100%;
+}
+/*Customization for logo*/
+a.nav-logo{
+    text-decoration: none;
+    color: #30475E;
+}
+
+
+
+/*Works Section*/
+
+/*Works Section - Image configurations*/
+.img-web h2{
+    opacity: 50%;
+    font-weight: bold;
+}
+
+.img-web img{
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+/*configuration for heading*/
+.works h2{
+    opacity: 50%;
+    font-weight: bold;
+}
+/*Makes Section Flex*/
+.works{
+    display: flex;
+    flex-direction: column;
+} 
+
+.work-blocks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.work-block{
+    margin: 20px;
+}
+/*Button - link to "Works" pages*/
+.button-more{
+    margin: 30px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+/*Configurations for Images in "Works" section*/
+.work-block img{
+    width:340px;
+    justify-content: space-evenly;
+}
+
+
+
+/*Footer*/
+
+footer{
+    background-color: #222831;
+    color: #FDFDFD;
+    margin: 0 auto;
+    text-align: center;
+}
+/*Makes Icons in Footer Flex*/
+.icons{
+    display: flex;
+    justify-content: center;    
+}
+/*Configurations for Icons in footer*/
+.icons img{
+    margin: 30px;
+    width: 50px;
+    height: 50px;
+}
